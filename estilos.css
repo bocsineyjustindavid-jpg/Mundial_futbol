@@ -3,3 +3,89 @@ body{
     text-align: center;
     background: #f5f5;
 }
+
+h2{
+    margin-top: 20px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.fila{
+    display: flex;
+    gap: 60px;
+}
+
+/* Mover un poco la fila para abajo */
+.abajo{
+    margin-left: 40px;
+}
+
+.fila1{ 
+    clip-path: polygon(
+        50% 0%, 100% 25%, 100% 75%,
+        50% 100%, 0% 75%, 0% 25%
+    );
+    width: 200px;
+    height: 200px;
+    margin-right: auto;
+}
+
+.fila2{ 
+    clip-path: polygon(
+        50% 0%, 100% 25%, 100% 75%,
+        50% 100%, 0% 75%, 0% 25%
+    );
+    width: 200px;
+    height: 200px;
+    margin-left: center auto;
+    margin-bottom: 100px;
+
+}
+
+.fila3{ 
+    clip-path: polygon(
+        50% 0%, 100% 25%, 100% 75%,
+        50% 100%, 0% 75%, 0% 25%
+    );
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+
+.filabajo4{ 
+    clip-path: polygon(
+        50% 0%, 100% 25%, 100% 75%,
+        50% 100%, 0% 75%, 0% 25%
+    );
+    width: 200px;
+    height: 200px;
+}
+
+.filabajo5{ 
+    clip-path: polygon(
+        50% 0%, 100% 25%, 100% 75%,
+        50% 100%, 0% 75%, 0% 25%
+    );
+    width: 200px;
+    height: 200px;
+}
+
+.filabajo6{ 
+    clip-path: polygon(
+        50% 0%, 100% 25%, 100% 75%,
+        50% 100%, 0% 75%, 0% 25%
+    );
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
