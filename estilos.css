@@ -1,0 +1,30 @@
+.resumen{
+    display:flex;
+    align-items: flex-start;
+    width: 90%;
+    margin: auto;
+}
+
+.texto{
+    width:60%;
+}
+
+.imagen{
+    width: 40%;
+    text-align: right;
+}
+
+.imagen img{
+    width: 80%;
+    border-radius: 25px;
+}
+
+.info{
+   width:90%;
+   margin:20px auto;
+}
+
+.imagen img:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
