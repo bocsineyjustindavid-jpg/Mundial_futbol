@@ -1,6 +1,6 @@
 /* color de fondo */
 body{
-    background-image: url(fondo2.jpg);
+    background-image: url(fondo.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -19,6 +19,8 @@ body{
 .contenedor-inicial{
     background-color: yellow;
     border-radius: 30px;
+    margin: 0 auto;
+    max-width: 600px;
 }
 
 .barra-nav ul{
