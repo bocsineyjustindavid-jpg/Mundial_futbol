@@ -1,89 +1,139 @@
 body{
     font-family: Arial, sans-serif;
     text-align: center;
-    background: #f5f5;
+    background: rgb(241, 235, 241);
 }
 
 h2{
     margin-top: 20px;
 }
-
-.contenedor{
+/* Tamaño de los contenedores */
+.contenedor, .contenedor-imagen2{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-    margin-top: 30px;
-}
+    justify-content: center;
+    column-gap: 15px;
+    width: 100%;
+    margin-top:100px;
 
-.fila{
-    display: flex;
-    gap: 60px;
 }
-
 /* Mover un poco la fila para abajo */
-.abajo{
-    margin-left: 40px;
-}
 
-.fila1{ 
+.jugador{ 
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    z-index: 10;
     clip-path: polygon(
         50% 0%, 100% 25%, 100% 75%,
         50% 100%, 0% 75%, 0% 25%
     );
+    background-image: url(Diego\ Forlán\ \(Uruguay\).jpg);
+    background-position: center;
     width: 200px;
     height: 200px;
-    margin-right: auto;
+}    
+
+.fila1 span{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    font-size: 32px;
 }
 
 .fila2{ 
+    display: flex;
+    justify-content: center;
+    align-items: end;
     clip-path: polygon(
         50% 0%, 100% 25%, 100% 75%,
         50% 100%, 0% 75%, 0% 25%
     );
+    background-image: url(Wesley\ Sneijder\ \(Países\ Bajos\).jpg);
+    background-position: center;
     width: 200px;
     height: 200px;
-    margin-left: center auto;
-    margin-bottom: 100px;
+}
 
+.fila2 span{
+    background-color: white;
+    font-size: 32px;
 }
 
 .fila3{ 
+    display: flex;
+    justify-content: center;
+    align-items: end;
     clip-path: polygon(
         50% 0%, 100% 25%, 100% 75%,
         50% 100%, 0% 75%, 0% 25%
     );
+    background-image: url(David\ Villa\ \(España\).jpg);
+    background-position: center;
     width: 200px;
     height: 200px;
-    margin-left: auto;
-    margin-bottom: 100px;
+}
+
+.fila3 span{
+    background-color: white;
+    font-size: 32px;
 }
 
 .filabajo4{ 
+    display: flex;
+    justify-content: center;
+    align-items: end;
     clip-path: polygon(
         50% 0%, 100% 25%, 100% 75%,
         50% 100%, 0% 75%, 0% 25%
     );
+    background-image: url(Iker\ Casillas\ \(España\).jpg);
+    background-position: center;
     width: 200px;
     height: 200px;
 }
 
-.filabajo5{ 
+.filabajo4 span{
+    background-color: white;
+    font-size: 32px;
+}
+
+.filabajo5{
+    display: flex;
+    justify-content: center;
+    align-items: end; 
     clip-path: polygon(
         50% 0%, 100% 25%, 100% 75%,
         50% 100%, 0% 75%, 0% 25%
     );
+    background-image: url(Thomas\ Müller\ \(Alemania\).jpg);
+    background-position: center;
     width: 200px;
     height: 200px;
 }
 
-.filabajo6{ 
+.filabajo5 span{
+    background-color: white;
+    font-size: 32px;
+}
+
+.filabajo6{
+    display: flex;
+    justify-content: center;
+    align-items: end; 
     clip-path: polygon(
         50% 0%, 100% 25%, 100% 75%,
         50% 100%, 0% 75%, 0% 25%
     );
+    background-image: url(xavi.jpg);
+    background-position: center;
     width: 200px;
     height: 200px;
+}
+
+.filabajo6 span{
+    background-color: white;
+    font-size: 32px;
 }
 
 
