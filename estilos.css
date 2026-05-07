@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #007bff, #00c6ff); /* Degradado azul similar al de la imagen */
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2); /* Fondo semi-transparente para el contenido */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.semifinales {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    gap: 40px; /* Espacio entre los dos partidos de semifinal */
+}
+
+.match {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.team-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Asegura que la imagen no se salga del círculo */
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.team-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Recorta la imagen para que encaje bien en el círculo */
+}
+
+.score-box {
+    width: 80px;
+    height: 40px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+    gap: 80px; /* Espacio entre los dos finalistas */
+    margin-top: 50px;
+}
+
+.final-box {
+    width: 180px; /* Ancho similar al de las figuras rectangulares en la imagen */
+    height: 150px; /* Alto similar al de las figuras rectangulares en la imagen */
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    /* Para replicar la forma de "escudo" o "pentágono" de la imagen, usaremos pseudo-elementos */
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%); /* Forma de escudo */
+    transform: rotate(0deg); /* Asegura que la forma no esté girada si se copia de otro lado */
+}
+
+.final-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: inherit; /* La imagen hereda la forma del contenedor */
+}
+
+/* Responsive design para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .semifinales {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .final {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
