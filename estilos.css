@@ -16,9 +16,11 @@ h2{
     margin-top:100px;
 
 }
+
+
 /* Mover un poco la fila para abajo */
 
-.jugador{ 
+.fila1{ 
     display: flex;
     justify-content: center;
     align-items: end;
@@ -56,7 +58,6 @@ h2{
 }
 
 .fila2 span{
-    background-color: white;
     font-size: 32px;
 }
 
@@ -75,7 +76,6 @@ h2{
 }
 
 .fila3 span{
-    background-color: white;
     font-size: 32px;
 }
 
@@ -94,7 +94,6 @@ h2{
 }
 
 .filabajo4 span{
-    background-color: white;
     font-size: 32px;
 }
 
@@ -110,10 +109,14 @@ h2{
     background-position: center;
     width: 200px;
     height: 200px;
+    transition: transform 0.5s ease;
+}
+
+.filabajo5 img:hover{
+    transform: scale(1.1);
 }
 
 .filabajo5 span{
-    background-color: white;
     font-size: 32px;
 }
 
@@ -132,10 +135,12 @@ h2{
 }
 
 .filabajo6 span{
-    background-color: white;
     font-size: 32px;
 }
 
+.imagen img{
+
+}
 
 
 
