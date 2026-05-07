@@ -1,49 +1,83 @@
 
-body{
-    margin: 150px;
-    font-family: Arial, sans-serif,;
-    text-align: center;
-    background: linear-gradient(to bottom,#959ca0,#a6f0ff);
+/* style.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica;
+sans-seri;
 }
 
-h2 {
-    margin-top: 100px ;
+body{
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+/* CONTENEDOR */
+.contenedor{
+    display: flex;
+    align-items: center;
+    gap: 40PX ;
+}
+
+/* CUADRO */
+.cuadro{
+    width: 320px;
+    height: 420px;
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 5px rgba(0, 0, 0, 0, 2);
+}
+
+.cuadro h1{
+    margin-bottom: 20px;
     color: #333;
 }
 
-.contenedor {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 40px;
+.cuadro p{
+    color: #666;
+    line-height: 1.6;
 }
 
-.cuadrado {
-     width: 200px;
-    height: 125px;
-    border-radius: 50%;
-    border: 6px solid white;
-    background-size: cover;
-    background-position: center;
+/* CIRCULOS */
+.circulos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.circulo{
+    width:180px;
+    height:180px;
+    background:white;
+    border-radius:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    text-align:center;
+    padding:10px;
+}
+
+.circulo img{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:10px;
+}
+
+.circulo h3{
+    font-size:16px;
+    color:#333;
 }
     
+  
 
-.circulo {
-    width: 120px;
-    height: 150px;
-    border-radius: 50%;
-    border: 20px solid white;
-
-    background-size: cover;
-    background-position: center;
-}
-
-.cuadrado {
-     width: 200px;
-    height: 125px;
-    border-radius: 50%;
-    border: 6px solid white;
-    background-size: cover;
-    background-position: center;
-}
 
