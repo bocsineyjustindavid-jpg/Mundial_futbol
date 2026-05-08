@@ -49,5 +49,30 @@ details{
 
 summary{
     font-weight: bold;
+.Brasil{
+    width: 900px;
+    height: 600px;
+    background-color: rgb(39, 216, 15);
+    margin-inline: auto;
+    border: 75px inset black;
+    align-content: center;
+    justify-content: center;
+}
+.foto{
+   display: flex;
+    gap: 10px;
+     width: 100px;
+    height: 150px;
+    border: red;
+}
+.titulo{
+    text-align: center;
+}
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
     cursor: pointer;
 }
