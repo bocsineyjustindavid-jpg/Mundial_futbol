@@ -1,10 +1,11 @@
-.contenedor {
+.Brasil{
     width: 900px;
     height: 600px;
     background-color: rgb(39, 216, 15);
-margin-inline: auto;
+    margin-inline: auto;
     border: 75px inset black;
     align-content: center;
+    justify-content: center;
 }
 .foto{
    display: flex;
