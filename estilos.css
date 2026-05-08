@@ -1,3 +1,171 @@
+/* color de fondo */
+body{
+    background-image: url(fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* bienvenida */
+
+.caja-principal{
+    background-color: rgb(98, 163, 1);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+/* Barra */
+.contenedor-inicial{
+    background-color: yellow;
+    border-radius: 30px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.barra-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.barra-nav a{
+    text-decoration: none;
+    color: #444;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.barra-nav a:hover{
+    color: #007bff;
+}
+
+/* Contenedor universal e las fotos */
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.contenedor div{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border-radius: 50%;
+    outline: 10px solid white;
+}
+/* Estilos que corresponde a la primera caja1 */
+.contenedor .caja1{
+    background-image: url(justin.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+
+.contenedor .caja1 span{
+    text-align: center;
+    display: inline-block;
+    width: 60px;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+/* caja 2 */
+.contenedor .caja2{
+    background-image: url(jonathan.jpeg);
+    background-position: center;
+    background-size: contain;
+    
+}
+
+.contenedor .caja2 span{
+    text-align: center;
+    display: inline-block;
+    width: 60px;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+/* caja3 */
+.contenedor .caja3{
+    background-image: url(carlos.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+
+.contenedor .caja3 span{
+    text-align: center;
+    display: inline-block;
+    width: 60px;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: aliceblue;
+    }
+
+/* caja4 */
+.contenedor .caja4{
+    background-image: url(samuel.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+
+.contenedor .caja4 span{
+    text-align: center;
+    display: inline-block;
+    width: 60px;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: aliceblue;
+} 
+
+/* caja5 */
+.contenedor .caja5{
+    background-image: url(yair.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+
+.contenedor .caja5 span{
+    text-align: center;
+    display: inline-block;
+    width: 60px;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: aliceblue;
+    }
+
+/* caja6 */
+.contenedor .caja6{
+    background-image: url(angela.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+
+.contenedor .caja6 span{
+    text-align: center;
+    display: inline-block;
+    width: 60px;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: aliceblue;
+    }
 h2{
     margin-top: 20px;
 }
