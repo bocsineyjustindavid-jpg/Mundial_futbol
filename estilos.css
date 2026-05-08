@@ -1,18 +1,9 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: linear-gradient(to right, #007bff, #00c6ff); /* Degradado azul similar al de la imagen */
-    color: white;
-}
+
 
 .container {
     text-align: center;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.2); /* Fondo semi-transparente para el contenido */
+    background-color: rgba(0, 0, 0, 0.2); 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -27,7 +18,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
-    gap: 40px; /* Espacio entre los dos partidos de semifinal */
+    gap: 40px; 
 }
 
 .match {
@@ -45,14 +36,14 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden; /* Asegura que la imagen no se salga del círculo */
+    overflow: hidden;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
 .team-circle img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Recorta la imagen para que encaje bien en el círculo */
+    object-fit: cover;
 }
 
 .score-box {
@@ -71,13 +62,13 @@ h1 {
 .final {
     display: flex;
     justify-content: center;
-    gap: 80px; /* Espacio entre los dos finalistas */
+    gap: 80px; 
     margin-top: 50px;
 }
 
 .final-box {
-    width: 180px; /* Ancho similar al de las figuras rectangulares en la imagen */
-    height: 150px; /* Alto similar al de las figuras rectangulares en la imagen */
+    width: 180px; 
+    height: 150px; 
     border: 2px solid white;
     background-color: rgba(255, 255, 255, 0.1);
     display: flex;
@@ -85,19 +76,18 @@ h1 {
     align-items: center;
     overflow: hidden;
     position: relative;
-    /* Para replicar la forma de "escudo" o "pentágono" de la imagen, usaremos pseudo-elementos */
-    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%); /* Forma de escudo */
-    transform: rotate(0deg); /* Asegura que la forma no esté girada si se copia de otro lado */
+  
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%); 
+    transform: rotate(0deg); 
 }
 
 .final-box img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    clip-path: inherit; /* La imagen hereda la forma del contenedor */
+    clip-path: inherit; 
 }
 
-/* Responsive design para pantallas más pequeñas */
 @media (max-width: 768px) {
     .semifinales {
         flex-direction: column;
