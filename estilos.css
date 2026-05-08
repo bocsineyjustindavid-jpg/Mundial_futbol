@@ -5,19 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica;
-sans-seri;
-}
-
-body{
-    background: #f2f2f2;
-    display: flex;
-    justify-content: center;
-   align-items: center;
-   height: 100vh;
+    
 }
 
 /* CONTENEDOR */
-.contenedor{
+.contenedor-fifa{
     display: flex;
     align-items: center;
     gap: 40PX ;
@@ -33,7 +25,7 @@ body{
     box-shadow: 0 5px rgba(0, 0, 0, 0, 2);
 }
 
-.cuadro h1{
+.cuadro em{
     margin-bottom: 20px;
     color: #333;
 }
@@ -44,7 +36,7 @@ body{
 }
 
 /* CIRCULOS */
-.circulos{
+.circulo{
     display: flex;
     flex-direction: column;
     gap: 30px;
