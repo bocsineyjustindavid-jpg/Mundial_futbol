@@ -1,3 +1,140 @@
+h2{
+    margin-top: 20px;
+}
+/* Tamaño de los contenedores */
+.contenedor-mundial, .contenedor-imagen2{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    width: 100%;
+    margin-top:100px;
+
+}
+
+
+/* Mover un poco la fila para abajo */
+
+.fila1{ 
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    z-index: 10;
+    clip-path: polygon(
+        50% 0%, 100% 25%, 100% 75%,
+        50% 100%, 0% 75%, 0% 25%
+    );
+    background-image: url(Diego\ Forlán\ \(Uruguay\).jpg);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+}    
+
+.fila1 span{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    font-size: 32px;
+}
+
+.fila2{ 
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    clip-path: polygon(
+        50% 0%, 100% 25%, 100% 75%,
+        50% 100%, 0% 75%, 0% 25%
+    );
+    background-image: url(Wesley\ Sneijder\ \(Países\ Bajos\).jpg);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+}
+
+.fila2 span{
+    font-size: 32px;
+}
+
+.fila3{ 
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    clip-path: polygon(
+        50% 0%, 100% 25%, 100% 75%,
+        50% 100%, 0% 75%, 0% 25%
+    );
+    background-image: url(David\ Villa\ \(España\).jpg);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+}
+
+.fila3 span{
+    font-size: 32px;
+}
+
+.filabajo4{ 
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    clip-path: polygon(
+        50% 0%, 100% 25%, 100% 75%,
+        50% 100%, 0% 75%, 0% 25%
+    );
+    background-image: url(Iker\ Casillas\ \(España\).jpg);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+}
+
+.filabajo4 span{
+    font-size: 32px;
+}
+
+.filabajo5{
+    display: flex;
+    justify-content: center;
+    align-items: end; 
+    clip-path: polygon(
+        50% 0%, 100% 25%, 100% 75%,
+        50% 100%, 0% 75%, 0% 25%
+    );
+    background-image: url(Thomas\ Müller\ \(Alemania\).jpg);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    transition: transform 0.5s ease;
+}
+
+.filabajo5 img:hover{
+    transform: scale(1.1);
+}
+
+.filabajo5 span{
+    font-size: 32px;
+}
+
+.filabajo6{
+    display: flex;
+    justify-content: center;
+    align-items: end; 
+    clip-path: polygon(
+        50% 0%, 100% 25%, 100% 75%,
+        50% 100%, 0% 75%, 0% 25%
+    );
+    background-image: url(xavi.jpg);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+}
+
+.filabajo6 span{
+    font-size: 32px;
+}
+
+
+
+
 
 .resumen{
     display:flex;
