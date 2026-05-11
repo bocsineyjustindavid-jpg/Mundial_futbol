@@ -1,6 +1,4 @@
 
-
-
 /* color de fondo */
 body{
     background-image: url(fondo.jpeg);
@@ -467,6 +465,79 @@ h4 {
         flex-direction: column;
         gap: 30px;
     }
+  
+  /* style.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica;
+    
+}
+
+/* CONTENEDOR */
+.contenedor-fifa{
+    display: flex;
+    align-items: center;
+    gap: 40PX ;
+}
+
+/* CUADRO */
+.cuadro{
+    width: 320px;
+    height: 420px;
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 5px rgba(0, 0, 0, 0, 2);
+}
+
+.cuadro em{
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.cuadro p{
+    color: #666;
+    line-height: 1.6;
+}
+
+/* CIRCULOS */
+.circulo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.circulo{
+    width:180px;
+    height:180px;
+    background:white;
+    border-radius:50%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    text-align:center;
+    padding:10px;
+}
+
+.circulo img{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:10px;
+}
+
+.circulo h3{
+    font-size:16px;
+    color:#333;
+}
+    
+ 
   
   
 .foto{
