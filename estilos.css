@@ -1,7 +1,7 @@
 
 /* color de fondo */
 body{
-    background-image: url(fondo.jpeg);
+    background-color: beige;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -167,6 +167,8 @@ body{
     font-weight: bolder;
     color: aliceblue;
     }
+
+/* Parte de carlos */
 h2{
     margin-top: 20px;
 }
@@ -301,70 +303,8 @@ h2{
     font-size: 32px;
 }
 
-
-
-
-
-.resumen{
-    display:flex;
-    align-items: flex-start;
-    gap:20px;
-    width:80%;
-    margin: auto;
-}
-
-.texto{
-    width:55%;
-    max-width:300px;
-    overflow-y: auto;
-}
-
-.imagen{
-    width:35%;
-    text-align: right;
-}
-
-.imagen img{
-    width:80%;
-    border-radius: 25px;
-    transition: transform 0.5s ease;
-}
-
-.imagen img:hover{
-    transform: scale(1.1);
-}
-
-.info{
-   width:70%;
-   margin:20px auto;
-   text-align: center;
-   border: 2px solid black;
-   padding: 15px;
-   border-radius: 10px;
-   font-family: Arial, Helvetica, sans-serif;
-
-}
-
-details{
-    border: 1px solid black;
-    border-radius: 8px;
-    padding:8px;
-    margin-bottom: 10px;
-    background-color: rgb(173, 214, 215);
-}
-
-summary{
-    font-weight: bold;
-.Brasil{
-    width: 900px;
-    height: 600px;
-    background-color: rgb(39, 216, 15);
-    margin-inline: auto;
-    border: 75px inset black;
-    align-content: center;
-    justify-content: center;
-}
   
+/* Parte de jair */
   .container {
     text-align: center;
     padding: 20px;
@@ -465,8 +405,9 @@ h4 {
         flex-direction: column;
         gap: 30px;
     }
+
+/* Parte de angela */
   
-  /* style.css */
 *{
     margin: 0;
     padding: 0;
@@ -537,9 +478,9 @@ h4 {
     color:#333;
 }
     
- 
-  
-  
+
+
+
 .foto{
    display: flex;
     gap: 10px;
@@ -558,3 +499,54 @@ button {
     border-radius: 10px;
     cursor: pointer;
 }
+
+/* parte de Jonathan */
+.resumen{
+    display:flex;
+    align-items: flex-start;
+    gap:20px;
+    width:80%;
+    margin: auto;
+}
+
+.texto{
+    width:55%;
+    max-width:300px;
+    overflow-y: auto;
+}
+
+.imagen{
+    width:35%;
+    text-align: right;
+}
+
+.imagen img{
+    width:80%;
+    border-radius: 25px;
+    transition: transform 0.5s ease;
+}
+
+.imagen img:hover{
+    transform: scale(1.1);
+}
+
+.info{
+   width:90%;
+   margin: 30px auto;
+   text-align: center;
+   border: 2px solid black;
+   padding: 15px;
+   border-radius: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+details{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding:8px;
+    margin-bottom: 10px;
+    background-color: rgb(173, 214, 215);
+}
+
+summary{
+    font-weight: bold; }
