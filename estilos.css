@@ -1,6 +1,373 @@
 
 
-.container {
+
+/* color de fondo */
+body{
+    background-image: url(fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* bienvenida */
+
+.caja-principal{
+    background-color: rgb(98, 163, 1);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+/* Barra */
+.contenedor-inicial{
+    background-color: yellow;
+    border-radius: 30px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.barra-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.barra-nav a{
+    text-decoration: none;
+    color: #444;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.barra-nav a:hover{
+    color: #007bff;
+}
+
+/* Contenedor universal e las fotos */
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.contenedor div{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border-radius: 50%;
+    outline: 10px solid white;
+}
+/* Estilos que corresponde a la primera caja1 */
+.contenedor .caja1{
+    background-image: url(justin.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+
+.contenedor .caja1 span{
+    text-align: center;
+    display: inline-block;
+    width: 60px;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+/* caja 2 */
+.contenedor .caja2{
+    background-image: url(jonathan.jpeg);
+    background-position: center;
+    background-size: contain;
+    
+}
+
+.contenedor .caja2 span{
+    text-align: center;
+    display: inline-block;
+    width: 60px;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+/* caja3 */
+.contenedor .caja3{
+    background-image: url(carlos.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+
+.contenedor .caja3 span{
+    text-align: center;
+    display: inline-block;
+    width: 60px;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: aliceblue;
+    }
+
+/* caja4 */
+.contenedor .caja4{
+    background-image: url(samuel.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+
+.contenedor .caja4 span{
+    text-align: center;
+    display: inline-block;
+    width: 60px;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: aliceblue;
+} 
+
+/* caja5 */
+.contenedor .caja5{
+    background-image: url(yair.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+
+.contenedor .caja5 span{
+    text-align: center;
+    display: inline-block;
+    width: 60px;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: aliceblue;
+    }
+
+/* caja6 */
+.contenedor .caja6{
+    background-image: url(angela.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+
+.contenedor .caja6 span{
+    text-align: center;
+    display: inline-block;
+    width: 60px;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: aliceblue;
+    }
+h2{
+    margin-top: 20px;
+}
+/* Tamaño de los contenedores */
+.contenedor-mundial, .contenedor-imagen2{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    width: 100%;
+    margin-top:100px;
+
+}
+
+
+/* Mover un poco la fila para abajo */
+
+.fila1{ 
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    z-index: 10;
+    clip-path: polygon(
+        50% 0%, 100% 25%, 100% 75%,
+        50% 100%, 0% 75%, 0% 25%
+    );
+    background-image: url(Diego\ Forlán\ \(Uruguay\).jpg);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+}    
+
+.fila1 span{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    font-size: 32px;
+}
+
+.fila2{ 
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    clip-path: polygon(
+        50% 0%, 100% 25%, 100% 75%,
+        50% 100%, 0% 75%, 0% 25%
+    );
+    background-image: url(Wesley\ Sneijder\ \(Países\ Bajos\).jpg);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+}
+
+.fila2 span{
+    font-size: 32px;
+}
+
+.fila3{ 
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    clip-path: polygon(
+        50% 0%, 100% 25%, 100% 75%,
+        50% 100%, 0% 75%, 0% 25%
+    );
+    background-image: url(David\ Villa\ \(España\).jpg);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+}
+
+.fila3 span{
+    font-size: 32px;
+}
+
+.filabajo4{ 
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    clip-path: polygon(
+        50% 0%, 100% 25%, 100% 75%,
+        50% 100%, 0% 75%, 0% 25%
+    );
+    background-image: url(Iker\ Casillas\ \(España\).jpg);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+}
+
+.filabajo4 span{
+    font-size: 32px;
+}
+
+.filabajo5{
+    display: flex;
+    justify-content: center;
+    align-items: end; 
+    clip-path: polygon(
+        50% 0%, 100% 25%, 100% 75%,
+        50% 100%, 0% 75%, 0% 25%
+    );
+    background-image: url(Thomas\ Müller\ \(Alemania\).jpg);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    transition: transform 0.5s ease;
+}
+
+.filabajo5 img:hover{
+    transform: scale(1.1);
+}
+
+.filabajo5 span{
+    font-size: 32px;
+}
+
+.filabajo6{
+    display: flex;
+    justify-content: center;
+    align-items: end; 
+    clip-path: polygon(
+        50% 0%, 100% 25%, 100% 75%,
+        50% 100%, 0% 75%, 0% 25%
+    );
+    background-image: url(xavi.jpg);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+}
+
+.filabajo6 span{
+    font-size: 32px;
+}
+
+
+
+
+
+.resumen{
+    display:flex;
+    align-items: flex-start;
+    gap:20px;
+    width:80%;
+    margin: auto;
+}
+
+.texto{
+    width:55%;
+    max-width:300px;
+    overflow-y: auto;
+}
+
+.imagen{
+    width:35%;
+    text-align: right;
+}
+
+.imagen img{
+    width:80%;
+    border-radius: 25px;
+    transition: transform 0.5s ease;
+}
+
+.imagen img:hover{
+    transform: scale(1.1);
+}
+
+.info{
+   width:70%;
+   margin:20px auto;
+   text-align: center;
+   border: 2px solid black;
+   padding: 15px;
+   border-radius: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+details{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding:8px;
+    margin-bottom: 10px;
+    background-color: rgb(173, 214, 215);
+}
+
+summary{
+    font-weight: bold;
+.Brasil{
+    width: 900px;
+    height: 600px;
+    background-color: rgb(39, 216, 15);
+    margin-inline: auto;
+    border: 75px inset black;
+    align-content: center;
+    justify-content: center;
+}
+  
+  .container {
     text-align: center;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.2); 
@@ -92,10 +459,31 @@ h4 {
     .semifinales {
         flex-direction: column;
         gap: 30px;
+    
     }
+  }
 
     .final {
         flex-direction: column;
         gap: 30px;
     }
+  
+  
+.foto{
+   display: flex;
+    gap: 10px;
+     width: 100px;
+    height: 150px;
+    border: red;
+}
+.titulo{
+    text-align: center;
+}
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
